@@ -1,0 +1,433 @@
+
+  *{padding: 0; margin: 0; box-sizing: border-box;}
+  body{
+      background-color:rgb(255, 255, 255);
+  }
+  @font-face{
+      font-family: "vinsanse";
+      src:url('vinsans/VinMonoPro-Light.otf');
+     
+  }
+
+
+
+  header {
+      background:rgb(59, 12, 104);
+      width: 100%;
+      height: 475px;
+      background-size: cover;
+      background-attachment: fixed;
+      position: relative;
+      overflow: hidden;
+      border-radius: 0 0 90% 0 / 25%;
+      text-align: center;
+  }
+  .lefthead{
+      background:rgb(59, 12, 104);
+      width:50%;
+      float:left;
+      height:475px;
+      position:relative;
+  }
+ .righthead{
+     background:rgb(59, 12, 104);
+     width:50%;
+     height:475px;
+     float:right;
+     padding-top:5%;
+     position:relative;
+ }
+ .lefthead h1{
+     font-size:70px;
+     color:white;
+     font-family: 'vinsanse';
+ }
+ .lefthead h2{
+    font-size:20px;
+    color:white;
+    font-family: 'vinsanse';
+ }
+ .uk-icon{
+     color:white;
+     background-color: white;
+ }
+ @media (max-width: 1250px) {
+    .lefthead h1{
+        font-size:40px;
+    
+    }
+    .lefthead h2{
+        font-size:20px;
+     
+    }    
+  }
+  @media (max-width: 700px) {
+    .lefthead h1{
+        font-size:23px;
+    
+    }
+    .lefthead h2{
+        font-size:13px;
+     
+    }    
+    header{
+        height:400px;
+    }
+  }
+
+  @media (max-width: 440px) {
+    .lefthead h1{
+        font-size:15px;
+    
+    }
+    .lefthead h2{
+        font-size:8px;
+     
+    }    
+    header{
+        height:350px;
+    }
+  }
+
+  .sector_welcome{
+      height:400px;
+      margin-top:2%;
+      position:relative;
+     
+  }
+ 
+  .welcomeright{
+    height:400px;
+    float:right;
+    position:relative;
+    padding:2%;
+  }
+  .welcomeright img{
+      float:left;
+      width:50%;
+      border-style:none;
+      margin-right:15px;
+  }
+
+  .welcomeright h1{
+   color:rgb(59, 59, 59);
+   font-size:24px;
+  }
+   
+.middleone{
+    
+    background:rgb(255, 255, 255);
+    padding:2%;
+    color:rgb(59, 59, 59);
+    position: relative;
+
+}
+.middleone img{
+   float:right;
+   width:300px;
+   height:300px;
+   border-style:none;
+   margin:5px;
+}
+.middleone h1{
+    font-size:24px;
+}
+
+@media (max-width: 1300px) {
+ 
+    .middleone{
+        font-size:12px;
+    }
+    .middleone img{
+        display:none;
+    }
+  }
+
+@media (max-width: 1250px) {
+ 
+    .welcomeright{
+        font-size:12px;
+    
+    }
+    .middleone{
+        font-size:12px;
+    }
+      
+  }
+  @media (max-width: 415px) {
+ 
+    .welcomeright{
+        font-size:9px;
+    
+    }
+  .sector_welcome{
+    height:300px;
+  }
+ 
+   .welcomeright{
+    height:300px;
+   }
+   
+  }
+
+
+
+  @media (max-width: 315px) {
+ 
+    .welcomeright{
+        font-size:7px;}
+    .welcomeright a{
+        font-size:7px;
+    }    
+    
+  
+  }
+  .headingportr
+  {
+      text-align:center;
+      background-color: rgb(59, 12, 104);
+      padding:1%;
+  }
+  .headingportr h1{
+      color:white;
+      font-family: 'vinsanse';
+  }
+ .middle_portr{
+     padding:2%;
+     
+
+ }
+ .middle_portr img{
+     float:left;
+     border-style:none;
+ }
+ .progareas{
+     
+     display:-webkit-flex;
+     display:flex;
+     justify-content:center; 
+     -webkit-justify-content:center;
+     align-items:center;
+     -webkit-align-items:center; 
+     flex-wrap:wrap;
+     -webkit-flex-wrap: wrap;
+     background-color: rgb(59, 12, 104);
+  
+     
+ }
+ .progblock{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-basis: 200px;
+    flex-basis: 300px;
+    height:300px;
+    margin:1%;
+    
+    
+ }
+.progareas img{
+    height:300px; 
+    width:300px;
+}
+.progareas p{
+    color:black;
+    font-size:12px;
+}
+.spheres{
+    background-color: rgb(59, 12, 104);
+    padding:2%;
+    position: relative;
+    text-align: center;
+    
+}
+.spheres h1{
+  color:white;
+  font-family: 'vinsanse';
+}
+
+@media (max-width: 1250px) {
+ 
+    .hid{
+        overflow: hidden;
+    }
+  }
+.sandlang{
+    padding:3%;
+    border:1px solid rgb(145, 142, 142);
+    border-radius:10px;
+    margin:3%;
+}
+.sandlang a{
+    color:rgb(114, 57, 167);
+
+}
+.popularity{
+    display:-webkit-flex;
+    display:flex;
+    justify-content:space-around; 
+    -webkit-justify-content:space-around;
+    align-items:center;
+    -webkit-align-items:flex-start; 
+    flex-wrap:flex-start;
+    -webkit-flex-wrap: wrap;
+    background-color: rgb(59, 12, 104); 
+    padding:2%;
+}
+.ratesarea{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-basis: 900px;
+    flex-basis: 900px;
+    height:700px;
+    margin:1%;
+  
+}
+.ratesdescr{
+    display: -webkit-flex;
+    display: flex;
+    margin:1%;
+    -webkit-flex-basis:30%;
+    flex-basis:30%;
+}
+
+.ratesdescr h1{
+ color:white;
+ font-family:"vinsanse";
+}
+.ratesdescr h3{
+  color:white;
+  
+}
+.ratesdescr p{
+    color:rgb(223, 223, 223);
+    
+  }
+  .ratesdescr a{
+    color:rgb(223, 223, 223);
+    
+  }
+  @media (max-width: 1450px) {
+ 
+    .ratesdescr{
+        -webkit-flex-basis:90%;
+        flex-basis:90%;
+    }
+    .ratesarea{
+        -webkit-flex-basis:100%;
+        flex-basis:100%;
+    }
+  }
+  @media (max-width: 750px) {
+ 
+    .ratesarea{
+        -webkit-flex-basis:100%;
+        flex-basis:100%;
+        height:500px;
+    }
+  }
+  .lang{
+     display:-webkit-flex;
+     display:flex;
+     justify-content:space-around; 
+     -webkit-justify-content:space-around;
+     align-items:center;
+     -webkit-align-items:center; 
+     flex-wrap:wrap;
+     -webkit-flex-wrap: wrap;
+     background-color:white;
+     padding:2%;
+  }
+  .langlogo{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-basis: 300px;
+    flex-basis: 300px;
+    height:300px;
+    border-radius:150px;
+  }
+  .imginlogo{
+      height:300px;
+      width:300px;
+      border-radius:150px;
+  }
+  .langdescr{
+    display: -webkit-flex;
+    display: flex;
+    padding:2%;
+    background-color:rgb(59, 12, 104);
+    width:50%;
+    margin:1%;
+  }
+  .langdescr h1{
+      color:white;
+  }
+  .langdescr p{
+      color:white;
+  }
+
+  @media (max-width: 750px) {
+    .langdescr{
+        width:90%;
+    }   
+  }
+
+
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  /* The search field */
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* The search field when it gets focus/clicked on */
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  
